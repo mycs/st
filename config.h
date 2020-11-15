@@ -5,8 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
+/* static char *font = "mono:pixelsize=14:antialias=true:autohint=true"; */
+/* static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" }; */
+static char *font = "SourceCodePro-ExtraLight:pixelsize=16:antialias=true:autohint=true";
+static char *font2[] = { "Sauce Code Pro ExtraLight Nerd Font Complete Mono:pixelsize=16:antialias=true:autohint=true",
+  "JoyPixels:pixelsize=10:antialias=true:autohint=true"
+};
 static int borderpx = 2;
 
 /*
@@ -108,7 +112,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+/* float alpha = 0.8; */
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
