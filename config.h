@@ -7,9 +7,10 @@
  */
 /* static char *font = "mono:pixelsize=14:antialias=true:autohint=true"; */
 /* static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" }; */
-static char *font = "SourceCodePro-ExtraLight:pixelsize=16:antialias=true:autohint=true";
-static char *font2[] = { "Sauce Code Pro ExtraLight Nerd Font Complete:pixelsize=16:antialias=true:autohint=true",
-  "JoyPixels:pixelsize=10:antialias=true:autohint=true"
+static char *font = "SourceCodePro-ExtraLight:size=12";
+static char *font2[] = { "SourceCodePro-ExtraLight:size=12",
+  "Sauce Code Pro ExtraLight Nerd Font Complete:pixelsize=12:antialias=true:autohint=true",
+  "JoyPixels:pixelsize=12:antialias=true:autohint=true"
 };
 static int borderpx = 2;
 
