@@ -9,8 +9,8 @@
 /* static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" }; */
 static char *font = "SourceCodePro-ExtraLight:size=12";
 static char *font2[] = { "SourceCodePro-ExtraLight:size=12",
+  "JoyPixels:pixelsize=12:antialias=true:autohint=true",
   "Sauce Code Pro ExtraLight Nerd Font Complete:pixelsize=12:antialias=true:autohint=true",
-  "JoyPixels:pixelsize=12:antialias=true:autohint=true"
 };
 static int borderpx = 2;
 
@@ -117,42 +117,61 @@ float alpha = 1;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
-  
-  /* /1* 8 normal colors *1/ */
-  /* "black", */
-  /* "red3", */
-  /* "green3", */
-  /* "yellow3", */
-  /* "blue2", */
-  /* "magenta3", */
-  /* "cyan3", */
-  /* "gray90", */
+  /* /1* gruvbox *1/ */
+	/* "#282828", /1* hard contrast: #1d2021 / soft contrast: #32302f *1/ */
+	/* "#cc241d", */
+	/* "#98971a", */
+	/* "#d79921", */
+	/* "#458588", */
+	/* "#b16286", */
+	/* "#689d6a", */
+	/* "#a89984", */
+	/* "#928374", */
+	/* "#fb4934", */
+	/* "#b8bb26", */
+	/* "#fabd2f", */
+	/* "#83a598", */
+	/* "#d3869b", */
+	/* "#8ec07c", */
+	/* "#ebdbb2", */
 
-  /* /1* 8 bright colors *1/ */
-  /* "gray50", */
-  /* "red", */
-  /* "green", */
-  /* "yellow", */
-  /* "#5c5cff", */
-  /* "magenta", */
-  /* "cyan", */
-  /* "white", */
+  /* /1* System *1/ */
+  /* "Black", */
+  /* "Maroon", */
+  /* "Green", */
+  /* "Olive", */
+  /* "Navy", */
+  /* "Purple", */
+  /* "Teal", */
+  /* "Silver", */
+  /* "Grey", */
+  /* "Red", */
+  /* "Lime", */
+  /* "Yellow", */
+  /* "Blue", */
+  /* "Fuchsia", */
+  /* "Aqua", */
+  /* "White", */
+  
+  /* 8 normal colors */
+  "Black",
+  "Red3",
+  "Green3",
+  "Yellow3",
+  "#3333FF",
+  "Magenta3",
+  "Cyan3",
+  "Grey80",
+
+  /* 8 bright colors */
+  "Grey30",
+  "Red",
+  "Lime",
+  "Yellow",
+  "Blue",
+  "Fuchsia",
+  "Aqua",
+  "White",
 
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
