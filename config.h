@@ -9,8 +9,8 @@
 /* static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" }; */
 static char *font = "SourceCodePro-ExtraLight:size=12";
 static char *font2[] = { "SourceCodePro-ExtraLight:size=12",
-  "JoyPixels:pixelsize=12:antialias=true:autohint=true",
-  "Sauce Code Pro ExtraLight Nerd Font Complete:pixelsize=12:antialias=true:autohint=true",
+  "JoyPixels:pixelsize=14:antialias=true:autohint=true",
+  "Sauce Code Pro ExtraLight Nerd Font Complete:pixelsize=14:antialias=true:autohint=true",
 };
 static int borderpx = 2;
 
@@ -152,7 +152,7 @@ static const char *colorname[] = {
   /* "Fuchsia", */
   /* "Aqua", */
   /* "White", */
-  
+
   /* 8 normal colors */
   "Black",
   "Red3",
